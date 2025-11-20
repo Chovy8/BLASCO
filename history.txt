@@ -1,0 +1,70 @@
+history
+    1  ls
+    2  ls-la
+    3  ls - al
+    4  ls -al
+    5  cd documents
+    6  ls -al
+    7  ls
+    8  cd ..
+    9  cd documents
+   10  mkdir BLASCO
+   11  ls
+   12  cd BLASCO
+   13  ls
+   14  touch text.txt
+   15  ls
+   16  rm test.txt
+   17  rm text.txt
+   18  ls
+   19  touch readme.md
+   20  ls
+   21  start readme.md
+   22  mkdir BLASCO
+   23  git init
+   24  ls -al
+   25  cd .git
+   26  ls -al
+   27  cd ..
+   28  ls
+   29  git status
+   30  git add .
+   31  git status
+   32  git commit
+   33  git commit-m
+   34  git commit -m
+   35  git config --global user.name
+   36  git config --global user.name "Chovy8"
+   37  git config --global user.name
+   38  git config --global user.email
+   39  git config --global user.email "emmanuelblasco18@gmail.com"
+   40  git config --global user.email
+   41  git commit
+   42  git commit -m
+   43  git commit-m
+   44  git commit -m "first message"
+   45  git status\
+   46  git status
+   47  git branch
+   48  git branch -M main
+   49  git remote add origin https://github.com/Chovy8/BLASCO.git
+   50  git push - u origin main
+   51  git push -u origin main
+   52  ls
+   53  touch menot.txt
+   54  ls
+   55  start readme.md
+   56  start readme.md
+   57  gid .add
+   58  git add .
+   59  git status
+   60  git commit -m "second message"
+   61  git push
+   62  git push
+   63  cd ..
+   64  cd ..
+   65  git clone https://github.com/Chovy8/BLASCO.git
+   66  cd BLASCO
+   67  ls
+   68  start readme.md
+   69  history
