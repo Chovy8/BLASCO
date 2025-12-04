@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <a href="resumeemman.html">resume</a>
+    <div style="display: flex;justify-content: center;background-color: aqua;">
+    <img src="gif.gif" alt="" width="20%">
+    </div>
+    <hr>
+    <h1>Tables</h1>
+    <table>
+        <table width="100%" cellpadding="12" cellpadding="S" border="S">
+        <thead style="background-color: blue;">
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Address</td>
+            </tr>
+        </thead>
+        <tbody style="background-color: brown;">
+            <tr>
+                <td>emmann</td>
+                <td>15</td>
+                <td> bgcolor= olivarez</td>
+            </tr>
+            <tr>
+                <td>mannnn</td>
+                <td>18</td>
+                <td>olivarez</td>
+            </tr>
+            <tr>
+                <td>manuelll</td>
+                <td>10</td>
+                <td>olivarez</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="Loginform" action="" style="background-color: aquamarine;">
+        <h1> This is my form</h1>
+
+        <label for="username"> Username: </label>
+        <input type="text" name="username" id="username" maxlength="10">
+
+        <br><br>
+
+        <label for="password"> Password: </label>
+        <input type="password" name="password" id="password" maxlength="10">
+
+        <br><br>
+
+        <button type="submit" name="submit" id="submit" onclick="validate()">Submit</button>
+    </form>
+
+    <script>
+
+        function validate(){
+            const username =document.getElementById('username').value;
+            const password =document.getElementById('password').value;
+
+            if(username == 'emman123' && password === '12345'){
+                alert("Successfully Login");
+            }else{
+                alert("Invalid Username and Password");
+            }
+
+        }
+    </script>
+    <form action="registration" style="background-color: aquamarine;">
+        <h1>register form</h1>
+        <div>
+
+            <input type="radio" name="gender" id="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="gender" value="female">
+            <label for="female">female</label>
+
+            <button type="button" name="submit" oncliclick="registration()">submit</button>
+
+        </div>
+        <div>
+            <select name="genre" id="genre">
+                <option value="rock">rock</option>
+                <option value="kpop">kpop</option>
+                <option value="rnb">rnb</option>
+            </select>
+        </div>
+    </form>
+    
+    <script>
+        function registration(){
+            var gender = document.querSelector('input[name="gender"]:checked').value;
+            var genre = document.querSelector('select[name="genre"]').value;
+            alert("YOUR GENDER IS "+gender+" your Genre is "+genre);
+        }
+
+    </script>
+
+
+
+
+
+
+
+    
+</body>
+</html>
